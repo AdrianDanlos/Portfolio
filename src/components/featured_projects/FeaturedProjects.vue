@@ -124,16 +124,6 @@
                   <v-icon>mdi-github</v-icon>
                 </v-btn>
               </a>
-              <a target="_blank" :href="linksProject2.host">
-                <v-btn
-                  class="mr-4 mr-sm-0 ml-sm-4"
-                  icon
-                  @mouseover="cursorHover"
-                  @mouseleave="cursorLeave"
-                >
-                  <v-icon>mdi-web</v-icon>
-                </v-btn>
-              </a>
             </template>
           </featured-project>
         </v-col>
@@ -143,23 +133,23 @@
         <v-col>
           <featured-project :projectNumber="3">
             <template v-slot:side-title>
-              <div class="shadow" :style="{ background: '#1E2337' }"></div>
+              <div class="shadow" :style="{ background: '#712711' }"></div>
               <div class="side-title-container">
-                <span>A</span>
-                <span>P</span>
+                <span>B</span>
+                <span class="mb-4">_</span>
+                <span>H</span>
                 <span>E</span>
-                <span class="mb-4">X</span>
-                <span>T</span>
-                <span>R</span>
                 <span>A</span>
-                <span>C</span>
-                <span>K</span>
+                <span>V</span>
                 <span>E</span>
-                <span>R</span>
+                <span>N</span>
               </div>
             </template>
             <slot>
-              <v-img height="100%" src="/images/projects/apex/apex.jpg"></v-img>
+              <v-img
+                height="100%"
+                src="/images/projects/battleheaven/battleheaven.png"
+              ></v-img>
             </slot>
             <template v-slot:project-title>
               <span>{{ projectNames[2] }}</span>
@@ -205,41 +195,34 @@
         <v-col>
           <featured-project reverse :projectNumber="4">
             <template v-slot:side-title>
-              <div class="shadow" :style="{ background: '#274f62' }"></div>
+              <div class="shadow" :style="{ background: '#1E2337' }"></div>
               <div class="side-title-container">
-                <span>C</span>
-                <span>L</span>
-                <span>O</span>
-                <span>U</span>
-                <span class="mb-4">D</span>
-                <span>R</span>
-                <span>O</span>
                 <span>A</span>
-                <span>D</span>
+                <span>P</span>
+                <span>E</span>
+                <span class="mb-4">X</span>
+                <span>T</span>
+                <span>R</span>
+                <span>A</span>
+                <span>C</span>
+                <span>K</span>
+                <span>E</span>
+                <span>R</span>
               </div>
             </template>
             <slot>
-              <v-img
-                height="100%"
-                src="/images/projects/cloudroad/dark/mapa.png"
-              ></v-img>
+              <v-img height="100%" src="/images/projects/apex/apex.jpg"></v-img>
             </slot>
             <template v-slot:project-title>
-              <span>{{ projectNames[1] }}</span>
+              <span>{{ projectNames[3] }}</span>
             </template>
             <template v-slot:project-description>
               <project-desc-4></project-desc-4>
             </template>
             <template v-slot:languages-used>
-              <span
-                :class="{
-                  'min-width': n === techsProject4[0],
-                  'ml-4': n !== 1,
-                }"
-                v-for="n in techsProject4.length"
-                :key="n"
-                >{{ techsProject4[n - 1] }}</span
-              >
+              <span class="ml-4" v-for="n in techsProject4.length" :key="n">{{
+                techsProject4[n - 1]
+              }}</span>
             </template>
             <template v-slot:web-links>
               <a target="_blank" :href="linksProject4.github">
@@ -271,6 +254,72 @@
         <v-col>
           <featured-project :projectNumber="5">
             <template v-slot:side-title>
+              <div class="shadow" :style="{ background: '#274f62' }"></div>
+              <div class="side-title-container">
+                <span>C</span>
+                <span>L</span>
+                <span>O</span>
+                <span>U</span>
+                <span class="mb-4">D</span>
+                <span>R</span>
+                <span>O</span>
+                <span>A</span>
+                <span>D</span>
+              </div>
+            </template>
+            <slot>
+              <v-img
+                height="100%"
+                src="/images/projects/cloudroad/dark/mapa.png"
+              ></v-img>
+            </slot>
+            <template v-slot:project-title>
+              <span>{{ projectNames[4] }}</span>
+            </template>
+            <template v-slot:project-description>
+              <project-desc-5></project-desc-5>
+            </template>
+            <template v-slot:languages-used>
+              <span
+                :class="{
+                  'min-width': n === techsProject5[0],
+                }"
+                class="mr-3"
+                v-for="n in techsProject5.length"
+                :key="n"
+                >{{ techsProject5[n - 1] }}</span
+              >
+            </template>
+            <template v-slot:web-links>
+              <a target="_blank" :href="linksProject5.github">
+                <v-btn
+                  class="ml-n2 mr-4"
+                  icon
+                  @mouseover="cursorHover"
+                  @mouseleave="cursorLeave"
+                >
+                  <v-icon>mdi-github</v-icon>
+                </v-btn>
+              </a>
+              <a target="_blank" :href="linksProject5.host">
+                <v-btn
+                  class="mr-4"
+                  icon
+                  @mouseover="cursorHover"
+                  @mouseleave="cursorLeave"
+                >
+                  <v-icon>mdi-web</v-icon>
+                </v-btn>
+              </a>
+            </template>
+          </featured-project>
+        </v-col>
+      </v-row>
+      <!-- PROJECT 6 -->
+      <v-row class="mb-5 mb-sm-15">
+        <v-col>
+          <featured-project reverse :projectNumber="6">
+            <template v-slot:side-title>
               <div class="shadow" :style="{ background: '#4D728F' }"></div>
               <div class="side-title-container">
                 <span>C</span>
@@ -288,17 +337,17 @@
               ></v-img>
             </slot>
             <template v-slot:project-title>
-              <span>{{ projectNames[4] }}</span>
+              <span>{{ projectNames[5] }}</span>
             </template>
             <template v-slot:project-description>
-              <project-desc-5></project-desc-5>
+              <project-desc-6></project-desc-6>
             </template>
             <template v-slot:languages-used>
               <span
-                :class="{ 'mr-4': n !== techsProject5.length }"
-                v-for="n in techsProject5.length"
+                :class="{ 'mr-4': n !== techsProject6.length }"
+                v-for="n in techsProject6.length"
                 :key="n"
-                >{{ techsProject5[n - 1] }}</span
+                >{{ techsProject6[n - 1] }}</span
               >
             </template>
           </featured-project>

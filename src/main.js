@@ -20,6 +20,7 @@ import ProjectDesc2 from './shared/components/projectDescriptions/ProjectDesc2'
 import ProjectDesc3 from './shared/components/projectDescriptions/ProjectDesc3'
 import ProjectDesc4 from './shared/components/projectDescriptions/ProjectDesc4'
 import ProjectDesc5 from './shared/components/projectDescriptions/ProjectDesc5'
+import ProjectDesc6 from './shared/components/projectDescriptions/ProjectDesc6'
 import cursorEvents from './shared/mixins/cursorEvents'
 
 //Global Mixins
@@ -37,6 +38,7 @@ Vue.component('ProjectDesc2', ProjectDesc2);
 Vue.component('ProjectDesc3', ProjectDesc3);
 Vue.component('ProjectDesc4', ProjectDesc4);
 Vue.component('ProjectDesc5', ProjectDesc5);
+Vue.component('ProjectDesc6', ProjectDesc6);
 
 
 Vue.config.productionTip = false

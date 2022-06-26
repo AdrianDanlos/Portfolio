@@ -1,9 +1,29 @@
 <template>
   <span>
-    A Sci-fi -ish website of a company offering to build entire cities. Created to play around with fun
+    An enterprise web app designed to provide quicker
     <span
       class="special-text"
-    >design</span> concepts and ideas following a
-    <span class="special-text">minimalist</span> philosophy.
+    >assistance to road incidents</span> by providing real-time data trough webcams, graphs, map visualization and
+    <span
+      class="special-text"
+    >route algorithms</span> that allow technicians to solve incidents in a rapid and easy way.
+    <div v-if="currentRouteName === 'FullProject'">
+      <p class="mb-0 mt-4">Login credentials are available on Github.</p>
+    </div>
   </span>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      shortVersion: true,
+    };
+  },
+  computed: {
+    currentRouteName() {
+      return this.$route.name;
+    },
+  },
+};
+</script>

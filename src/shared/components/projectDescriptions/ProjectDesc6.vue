@@ -1,11 +1,9 @@
 <template>
   <span>
-    A
-    <span class="special-text">digital repository</span>
-    built for
-    <span class="special-text">Jaume I university </span>that serves as a digital archives system, focused on the long-term storage, access and preservation of scholarly and published digital content. Built with
-    <span class="special-text">Dspace open source package</span>.
+    A Sci-fi -ish website of a company offering to build entire cities. Created to play around with fun
+    <span
+      class="special-text"
+    >design</span> concepts and ideas following a
+    <span class="special-text">minimalist</span> philosophy.
   </span>
 </template>
-
-

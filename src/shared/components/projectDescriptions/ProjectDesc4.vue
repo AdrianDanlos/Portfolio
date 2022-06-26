@@ -1,29 +1,7 @@
 <template>
   <span>
-    An enterprise web app designed to provide quicker
-    <span
-      class="special-text"
-    >assistance to road incidents</span> by providing real-time data trough webcams, graphs, map visualization and
-    <span
-      class="special-text"
-    >route algorithms</span> that allow technicians to solve incidents in a rapid and easy way.
-    <div v-if="currentRouteName === 'FullProject'">
-      <p class="mb-0 mt-4">Login credentials are available on Github.</p>
-    </div>
+    A
+    <span class="special-text">real-time statistic tracker</span> for Apex Legends
+    <span class="special-text">videogame</span>. Search for your username to display data about your rank, kills, wins, top3's.. Ideal for all players that would like to keep track of their in-game stats.
   </span>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      shortVersion: true,
-    };
-  },
-  computed: {
-    currentRouteName() {
-      return this.$route.name;
-    },
-  },
-};
-</script>
