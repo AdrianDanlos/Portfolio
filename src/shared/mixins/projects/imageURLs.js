@@ -2,7 +2,7 @@ export default {
     data() {
         return {
             imgsProject1: {
-                light: ['/benocs/benocs_main.png', '/benocs/timeseries.png', '/benocs/dimensions.png', '/benocs/links1.png', '/benocs/links2.png', '/benocs/lookingglass.jpg'],
+                light: ['/benocs/1.png', '/benocs/2.png', '/benocs/3.png', '/benocs/4.png', '/benocs/5.png'],
             },
             imgsProject2: {                
                 light: ['/vueworld/landing-border.jpg', '/vueworld/bookables.png', '/vueworld/bookable.png', '/vueworld/reviews.png', '/vueworld/basket.png', '/vueworld/success.png', '/vueworld/sendreview.png']

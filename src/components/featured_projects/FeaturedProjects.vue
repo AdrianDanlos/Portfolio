@@ -39,7 +39,7 @@
             <slot>
               <v-img
                 height="100%"
-                src="/images/projects/benocs/benocs_main.png"
+                src="/images/projects/benocs/1.png"
               ></v-img>
             </slot>
             <template v-slot:project-title>

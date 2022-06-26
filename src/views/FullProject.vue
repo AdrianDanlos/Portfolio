@@ -9,6 +9,7 @@
             <video-project-6></video-project-6>
           </div>
           <v-img
+            class="mb-1"
             v-for="n in getColorMode.length"
             :key="n"
             width="100%"
