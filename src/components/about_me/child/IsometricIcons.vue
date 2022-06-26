@@ -17,6 +17,7 @@
         >
           <span v-for="n in 4" :key="n"></span>
           <span>
+            <img v-if="n === 1" src="/manhattan/contact.png">
             <v-icon>{{ technologiesIcons[n + 3 - 1] }}</v-icon>
           </span>
         </li>

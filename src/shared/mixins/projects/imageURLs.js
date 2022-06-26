@@ -8,7 +8,7 @@ export default {
                 light: ['/vueworld/landing-border.jpg', '/vueworld/bookables.png', '/vueworld/bookable.png', '/vueworld/reviews.png', '/vueworld/basket.png', '/vueworld/success.png', '/vueworld/sendreview.png']
             },
             imgsProject3: {                
-                light: ['/battleheaven/battleheaven.png']
+                light: ['/battleheaven/landing.png', '/battleheaven/1.png','/battleheaven/2.png','/battleheaven/3.png','/battleheaven/4.gif','/battleheaven/5.png','/battleheaven/6.png','/battleheaven/7.png','/battleheaven/8.png','/battleheaven/9.png','/battleheaven/10.png']
             },
             imgsProject4: {
                 light: ['/apex/apex.jpg', '/apex/github1.png', '/apex/github2.png', '/apex/github3.png'],

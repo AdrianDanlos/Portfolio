@@ -15,7 +15,7 @@
           </section-title>
           <h1
             class="mb-4"
-          >I'm a Frontend Developer who enjoys creating things that live on the internet, whether that be websites, applications, or anything in between.</h1>
+          >I'm a Frontend Developer who enjoys creating things that live on the internet, whether that be websites, apps, games or anything in between.</h1>
 
           <section id="dynamic-container" :style="{ height: dynamicContainerHeight + 'px' }">
             <!-- CORE SKILLS -->
@@ -25,8 +25,8 @@
                   Despite being specialized on Frontend technologies I have a broad experience building performant
                   <span
                     class="special-text"
-                  >end-to-end applications</span>. In 2020 I joined the talented and experienced engineering team at Benocs where I was given the opportunity to work on a
-                  high performance analytics application for internet networks.
+                  >end-to-end applications</span>. In 2020 I joined the experienced engineering team at Benocs where I have been developing a
+                  high performant data visualization application for the biggest internet provider companies.
                 </p>
                 <p>I feel at home in young, fresh, and fast-paced organizations.</p>
               </div>
@@ -42,10 +42,10 @@
                   >interpersonal skills</span> when building projects. Thus, I have read some of the most popular books on the topic such as
                   <span
                     class="special-text"
-                  >'How To Win Friends and Influence People'</span>, 'The Power of Introvers', 'How To Stop Worrying and Start Living' and many more to develop my social skills and contribute to a
+                  >'How To Win Friends and Influence People'</span>, 'The Power of Introvers', 'How To Stop Worrying and Start Living' and many more to develop my social skills and contribute to an
                   <span
                     class="special-text"
-                  >pleasant team environment</span>.
+                  >enjoyable and productive team environment</span>.
                 </p>
               </div>
             </transition>

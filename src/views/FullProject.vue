@@ -5,8 +5,8 @@
         <!-- GALLERY -->
         <v-col class="order-1 order-lg-0 col-12 col-lg-8 pa-0 py-lg-0">
           <devices-3-d v-if="currentProject == 2" class="d-none d-lg-block"></devices-3-d>
-          <div v-if="currentProject == 5">
-            <video-project-5></video-project-5>
+          <div v-if="currentProject == 6">
+            <video-project-6></video-project-6>
           </div>
           <v-img
             v-for="n in getColorMode.length"
@@ -168,7 +168,7 @@ import projectNames from "./../shared/mixins/projects/projectNames";
 import webLinks from "./../shared/mixins/projects/webLinks";
 import imageURLs from "./../shared/mixins/projects/imageURLs";
 import VideoProject2 from "./../components/full_projects/video_components/VideoProject2";
-import VideoProject5 from "./../components/full_projects/video_components/VideoProject5";
+import VideoProject6 from "./../components/full_projects/video_components/VideoProject6";
 import Devices3D from "./../components/full_projects/Devices3D";
 import NextProject from "./../components/full_projects/NextProject";
 
@@ -176,7 +176,7 @@ export default {
   mixins: [technologiesUsed, projectNames, webLinks, imageURLs],
   components: {
     VideoProject2,
-    VideoProject5,
+    VideoProject6,
     Devices3D,
     NextProject,
   },

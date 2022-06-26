@@ -133,7 +133,7 @@
         <v-col>
           <featured-project :projectNumber="3">
             <template v-slot:side-title>
-              <div class="shadow" :style="{ background: '#712711' }"></div>
+              <div class="shadow" :style="{ background: '#3fa9bc' }"></div>
               <div class="side-title-container">
                 <span>B</span>
                 <span class="mb-4">_</span>
@@ -148,7 +148,7 @@
             <slot>
               <v-img
                 height="100%"
-                src="/images/projects/battleheaven/battleheaven.png"
+                src="/images/projects/battleheaven/landing.png"
               ></v-img>
             </slot>
             <template v-slot:project-title>
