@@ -65,7 +65,7 @@
                   institutions and big companies.
                 </li>
                 <li>
-                  <v-icon>mdi-chevron-right</v-icon>Test and implementation of
+                  <v-icon>mdi-chevron-right</v-icon>Tested and implemented
                   performant and responsive code to ensure cross-browser
                   compatibility and responsiveness in all devices.
                 </li>
@@ -88,11 +88,11 @@
                 <li>
                   <v-icon>mdi-chevron-right</v-icon>Architecting and
                   implementing the frontend of the the first ever ISP/CDN
-                  cooperative application to provide ISPs and CDNs with
+                  application to provide ISPs and CDNs with
                   next-generation network telemetry and analytics.
                 </li>
                 <li>
-                  <v-icon>mdi-chevron-right</v-icon>Performing on a variety of
+                  <v-icon>mdi-chevron-right</v-icon>Developing on a variety of
                   different languages, platforms and frameworks such as React,
                   MobX, TypeScript, Django, Cypress, Sass, Docker, Internal and
                   3rd party APIs...
@@ -103,8 +103,8 @@
                   (scrum) to ensure efficiency and high quality code.
                 </li>
                 <li>
-                  <v-icon>mdi-chevron-right</v-icon>Currently developing our
-                  software for some the most well known ISP/Internet brands
+                  <v-icon>mdi-chevron-right</v-icon>Creating
+                  software solutions for some of the most well known ISP/Internet brands
                   worldwide.
                 </li>
               </ul>

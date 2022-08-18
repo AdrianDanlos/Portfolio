@@ -15,7 +15,7 @@
           </section-title>
           <h1
             class="mb-4"
-          >I'm a Frontend Developer who enjoys creating things that live on the internet, whether that be websites, apps, games or anything in between.</h1>
+          >I'm a Software Developer who enjoys creating things that live on the internet, whether that be websites, apps, games or anything in between.</h1>
 
           <section id="dynamic-container" :style="{ height: dynamicContainerHeight + 'px' }">
             <!-- CORE SKILLS -->
@@ -54,10 +54,10 @@
             <transition name="fade">
               <div v-if="currentSection === 'PROBLEM SOLVING'">
                 <p>
-                  <span class="special-text">Logical and Rational Thinking</span> stand out as my main tools to face any kind of challenge and push innovation. Since I was a kid I have played games based on Logic and Decision Making, hitting
+                  <span class="special-text">Logical and Rational Thinking</span> stand out as my main tools to face any kind of challenge and push innovation. Since I was a kid I have enjoyed playing games based on Logic and Decision Making, hitting
                   <span
                     class="special-text"
-                  >professional level</span> in games such as Hearthstone and League of Legends.
+                  >semi-professional level</span> in games such as Hearthstone and League of Legends. This interest for games has pushed me to create not only websites and applications but also some games on my free time.
                 </p>
               </div>
             </transition>
