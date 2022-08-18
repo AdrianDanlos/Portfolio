@@ -109,7 +109,7 @@ export default {
   data() {
     return {
       loaded: false,
-      technologies: ["React", "VueJS", "JavaScript", "HTML5", "SASS", "Laravel"],
+      technologies: ["React", "JavaScript", "SASS", "Cypress", "Django", "Docker"],
       currentTech: 0,
       sections: ["CORE SKILLS", "TEAMWORK", "PROBLEM SOLVING"],
       currentSection: "CORE SKILLS",

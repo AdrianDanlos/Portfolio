@@ -31,11 +31,11 @@ export default {
     return {
       technologiesIcons: [
         "mdi-react",
-        "mdi-vuejs",
         "mdi-language-javascript",
-        "mdi-language-html5",
         "mdi-sass",
-        "mdi-laravel",
+        "mdi-forest",
+        "mdi-language-python",
+        "mdi-docker",
       ],
     };
   },
@@ -146,22 +146,9 @@ export default {
         z-index: 5;
       }
       &:hover {
-        &::before {
-          background: $vue-bBorder-color;
+        i {
+          color: $gray-500;
         }
-        &::after {
-          background: $vue-lBorder-color;
-        }
-        span {
-          background: $vue-color;
-        }
-      }
-    }
-    li:nth-child(3) {
-      span {
-        z-index: 4;
-      }
-      &:hover {
         &::before {
           background: $js-bBorder-color;
         }
@@ -172,33 +159,10 @@ export default {
           background: $js-color;
         }
       }
-      &:hover {
-        i {
-          color: $gray-500;
-        }
-      }
     }
-  }
-  .second-row {
-    li:nth-child(1) {
+    li:nth-child(3) {
       span {
-        z-index: 3;
-      }
-      &:hover {
-        &::before {
-          background: $html-bBorder-color;
-        }
-        &::after {
-          background: $html-lBorder-color;
-        }
-        span {
-          background: $html-color;
-        }
-      }
-    }
-    li:nth-child(2) {
-      span {
-        z-index: 2;
+        z-index: 4;
       }
       &:hover {
         &::before {
@@ -212,19 +176,53 @@ export default {
         }
       }
     }
+  }
+  .second-row {
+    li:nth-child(1) {
+      span {
+        z-index: 3;
+      }
+      &:hover {
+        &::before {
+          background: $cypress-bBorder-color;
+        }
+        &::after {
+          background: $cypress-lBorder-color;
+        }
+        span {
+          background: $cypress-color;
+        }
+      }
+    }
+    li:nth-child(2) {
+      span {
+        z-index: 2;
+      }
+      &:hover {
+        &::before {
+          background: $django-bBorder-color;
+        }
+        &::after {
+          background: $django-lBorder-color;
+        }
+        span {
+          background: $django-color;
+        }
+      }
+    }
     li:nth-child(3) {
       span {
         z-index: 1;
       }
       &:hover {
         &::before {
-          background: $laravel-bBorder-color;
+          background: $docker-bBorder-color;
         }
         &::after {
-          background: $laravel-lBorder-color;
+          background: $docker-lBorder-color;
         }
         span {
-          background: $laravel-color;
+          background: $docker-color;
         }
       }
     }

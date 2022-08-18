@@ -14,7 +14,6 @@ $purple: #3f51b5;
 $light-purple: lighten($purple, 25%);
 $light-violet: #6b759c;
 
-
 /*GLITCH COLORS*/
 $primary-glitch-color: $orange;
 $secondary-glitch-color: $light-orange;
@@ -23,12 +22,11 @@ $shadow2-glitch-color: #ff00008e;
 
 /*ISOMETRIC ICONS COLORS*/
 @function setBorderColors($color, $side) {
-    @if $side==left {
-        @return lighten($color, 22%);
-    }
-    @else {
-        @return lighten($color, 8%);
-    }
+  @if $side==left {
+    @return lighten($color, 22%);
+  } @else {
+    @return lighten($color, 8%);
+  }
 }
 
 /*Default tile*/
@@ -37,26 +35,26 @@ $tile-lBorder-color: setBorderColors($tile-color, left);
 $tile-bBorder-color: setBorderColors($tile-color, bottom);
 
 /*Tile technologies*/
-$react-color:#61DBFB;
-$vue-color: #40b883;
-$js-color:#ffca1d;
-$html-color:#f88838;
-$sass-color:#c66395;
-$laravel-color:#e65b49;
+$react-color: #61dbfb;
+$js-color: #ffca1d;
+$sass-color: #c66395;
+$cypress-color: #47474A;
+$django-color: #2AA473;
+$docker-color: #2497ED;
 
 /*Tile borders*/
-$vue-lBorder-color: setBorderColors($vue-color, left);
-$vue-bBorder-color: setBorderColors($vue-color, bottom);
-$js-lBorder-color: setBorderColors($js-color, left);
-$js-bBorder-color: setBorderColors($js-color, bottom);
-$laravel-lBorder-color: setBorderColors($laravel-color, left);
-$laravel-bBorder-color: setBorderColors($laravel-color, bottom);
 $react-lBorder-color: setBorderColors($react-color, left);
 $react-bBorder-color: setBorderColors($react-color, bottom);
-$html-lBorder-color: setBorderColors($html-color, left);
-$html-bBorder-color: setBorderColors($html-color, bottom);
+$js-lBorder-color: setBorderColors($js-color, left);
+$js-bBorder-color: setBorderColors($js-color, bottom);
 $sass-lBorder-color: setBorderColors($sass-color, left);
 $sass-bBorder-color: setBorderColors($sass-color, bottom);
+$cypress-lBorder-color: setBorderColors($cypress-color, left);
+$cypress-bBorder-color: setBorderColors($cypress-color, bottom);
+$django-lBorder-color: setBorderColors($django-color, left);
+$django-bBorder-color: setBorderColors($django-color, bottom);
+$docker-lBorder-color: setBorderColors($docker-color, left);
+$docker-bBorder-color: setBorderColors($docker-color, bottom);
 
 /*ERRORS*/
 $error-text-color: #c91111;
@@ -74,12 +72,14 @@ $bold: 700;
 $boldest: 900;
 
 /*LIQUID BUTTON*/
-$btn-liquid-bg: #CBC7C8;
-$btn-liquid-shadow:rgba($btn-liquid-bg, .2); //Lower values when bg is a light color
-
+$btn-liquid-bg: #cbc7c8;
+$btn-liquid-shadow: rgba(
+  $btn-liquid-bg,
+  0.2
+); //Lower values when bg is a light color
 
 /*IMPORTS*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&family=Nunito+Sans:wght@100;300;400;700;900&family=Fira+Code:wght@300;400;700&display=swap");
-@import './utility_classes';
-@import './mixins';
-@import './global';
+@import "./utility_classes";
+@import "./mixins";
+@import "./global";
