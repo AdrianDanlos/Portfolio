@@ -24,6 +24,7 @@
 
 
 ### :computer: Run and deploy project
+- npm install
 - npm run serve
 - npm run build
 - firebase deploy
