@@ -98,7 +98,7 @@
             <div class="d-none d-md-block">
               <h5 class="get-in-touch">Get in touch</h5>
               <h5 class="work-together">Let's work together.</h5>
-              <p>{{setBookMessage()}}</p>
+              <p v-html="setBookMessage()"></p>
             </div>
             <div>
               <p>
@@ -121,6 +121,10 @@
                   <span @mouseover="cursorHover" @mouseleave="cursorLeave">{{ github }}</span>
                 </p>
               </a>
+              <p @click=openResume()>
+                <v-icon>mdi-file-account</v-icon>
+                <span @mouseover="cursorHover" @mouseleave="cursorLeave">Download Resume</span>
+              </p>
             </div>
           </div>
         </main>
@@ -132,10 +136,11 @@
 
 <script>
 import personalData from "./../../shared/mixins/personalData";
+import downloadResume from "./../../shared/mixins/downloadResume";
 import emailjs from "emailjs-com";
 
 export default {
-  mixins: [personalData],
+  mixins: [personalData, downloadResume],
   data() {
     return {
       currentStep: 1,
@@ -144,7 +149,7 @@ export default {
       emailSent: false,
       emailError: false,
       defaultMessage:
-        "Got a project? Drop me a line if you want to work together on something exciting. Big or small. Web or mobile.",
+        "Got a project? Drop me a line if you want to <br/> work together on something exciting. Big or <br/> small. Web or mobile.",
       valid: true,
       emailRules: [
         (v) => !!v || "E-mail is required",

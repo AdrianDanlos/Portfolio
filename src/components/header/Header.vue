@@ -74,9 +74,10 @@
 <script>
 // import HeaderBrand from "./child/Brand";
 import redirects from "./../../shared/mixins/redirects";
+import downloadResume from "./../../shared/mixins/downloadResume";
 
 export default {
-  mixins: [redirects],
+  mixins: [redirects, downloadResume],
   components: {
     // HeaderBrand
   },
@@ -114,17 +115,6 @@ export default {
       } else {
         html.classList.remove("no-scroll");
       }
-    },
-    openResume() {
-      // window.open(
-      //   "https://drive.google.com/file/d/1kyuOcjPTBD9pDbegQEvu7yvTCcH6p2wE/view?usp=sharing",
-      //   "_blank"
-      // );
-
-      let link = document.createElement("a");
-      link.href = 'Adrian.pdf';
-      link.download = "Adrian_Danlos.pdf";
-      link.dispatchEvent(new MouseEvent("click"));
     },
   },
   mounted() {
