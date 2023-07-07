@@ -45,7 +45,7 @@
             <div class="links d-flex" :class="{'justify-sm-end': reverse}">
               <slot name="web-links"></slot>
               <router-link :to="{ name: 'FullProject', params: { id: projectNumber }}">
-                <v-btn :class="reverse ? 'mr-n2 ml-sm-4' : 'mr-4'" icon @mouseover="cursorHover" @mouseleave="cursorLeave">
+                <v-btn :class="reverse ? 'mr-n2 ml-sm-2' : 'mr-2'" icon @mouseover="cursorHover" @mouseleave="cursorLeave">
                   <v-icon>mdi-arrow-right</v-icon>
                 </v-btn>
               </router-link>

@@ -7,9 +7,6 @@
     <span
       class="special-text"
     >route algorithms</span> that allow technicians to solve incidents in a rapid and easy way.
-    <div v-if="currentRouteName === 'FullProject'">
-      <p class="mb-0 mt-4">Login credentials are available on Github.</p>
-    </div>
   </span>
 </template>
 

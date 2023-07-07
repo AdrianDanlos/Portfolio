@@ -6,6 +6,7 @@ export default {
                 linkedin: 'https://www.linkedin.com/company/benocs/',
             },
             linksProject2: {
+                host: 'https://github.com/AdrianDanlos/VueWorld',
                 github: 'https://github.com/AdrianDanlos/VueWorld'
             },
             linksProject3: {
@@ -17,7 +18,7 @@ export default {
                 github: 'https://github.com/AdrianDanlos/ApexLegends.OPGG'
             },
             linksProject5: {
-                host: 'http://cloudroad.herokuapp.com/',
+                host: 'https://github.com/AdrianDanlos/CloudRoad',
                 github: 'https://github.com/AdrianDanlos/CloudRoad'
             },
             linksProject6: {

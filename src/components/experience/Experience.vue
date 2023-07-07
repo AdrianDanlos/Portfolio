@@ -30,7 +30,7 @@
                 </div>
                 <div @mouseover="cursorHover" @mouseleave="cursorLeave">
                   <p @click="currentJob = 1" class="jobs-item">2019 - 2020</p>
-                  <p @click="currentJob = 2" class="jobs-item">2020 - 2021</p>
+                  <p @click="currentJob = 2" class="jobs-item">2020 - {{new Date().getFullYear()}}</p>
                   <p
                     @click="goAnimation(), (currentJob = null)"
                     class="jobs-item"
@@ -86,26 +86,18 @@
               <h5 class="mb-5">November 2020 - Present<span class="dot-divider">•</span>Berlin, Germany</h5>
               <ul>
                 <li>
-                  <v-icon>mdi-chevron-right</v-icon>Architecting and
-                  implementing the frontend of the the first ever ISP/CDN
-                  application to provide ISPs and CDNs with
-                  next-generation network telemetry and analytics.
+                  <v-icon>mdi-chevron-right</v-icon>Creating complex web data visualizations 
+                  to provide ISPs and CDNs with next generation
+                  network telemetry and analytics, transforming raw network data into
+                  understandable and visually pleasing representations.
                 </li>
                 <li>
-                  <v-icon>mdi-chevron-right</v-icon>Developing on a variety of
-                  different languages, platforms and frameworks such as React,
-                  MobX, TypeScript, Django, Cypress, Sass, Docker, Internal and
-                  3rd party APIs...
+                  <v-icon>mdi-chevron-right</v-icon>Utilizing an agile workflow to ensure optimal efficiency, 
+                  regular testing and maintain high standards of code quality
                 </li>
                 <li>
-                  <v-icon>mdi-chevron-right</v-icon>Working under a startup
-                  mindset, utilizing modern technologies and methodologies
-                  (scrum) to ensure efficiency and high quality code.
-                </li>
-                <li>
-                  <v-icon>mdi-chevron-right</v-icon>Creating
-                  software solutions for some of the most well known ISP/Internet brands
-                  worldwide.
+                  <v-icon>mdi-chevron-right</v-icon>Developing software 
+                  for some of the most well known ISP/Internet brands worldwide.
                 </li>
               </ul>
             </v-col>
@@ -148,7 +140,7 @@
             <template v-slot:text>
               <p class="ma-0 text-container">
                 <strong
-                  >...Implemented and developed on his own for the
+                  >...Implemented and developed for multiple
                   clients...</strong
                 >
                 <span class="text"
@@ -185,11 +177,11 @@
             <template v-slot:text>
               <p class="ma-0 text-container">
                 <strong
-                  >His participation in the different projects developed has
+                  >His contribution to the different projects developed has
                   been remarkable...</strong
                 >
                 <span class="text"
-                  >...contributing to their high level. Not only has he
+                  >...playing a key role in their high complexity level. Not only has he
                   contributed academically but he has also been able to lead the
                   work team.</span
                 >
@@ -257,9 +249,9 @@ export default {
           ml4.opacityIn = [0, 1];
           ml4.scaleIn = [0.2, 1];
           ml4.scaleOut = 3;
-          ml4.durationIn = 800;
-          ml4.durationOut = 600;
-          ml4.delay = 500;
+          ml4.durationIn = 500;
+          ml4.durationOut = 400;
+          ml4.delay = 300;
 
           this.$anime
             .timeline({ loop: false })
@@ -422,7 +414,6 @@ ul {
   .author {
     display: flex;
     align-items: center;
-    margin-top: 25px;
     color: $gray-500;
     font-family: $title-font;
     font-size: 15px;

@@ -23,7 +23,7 @@
               <div v-if="currentSection === 'CORE SKILLS'" :class="{positionAbsolute: loaded}">
                 <p>
                   My main focus these days is building products for our clients, including some of the largest internet service providers, at Benocs.
-                  During my free time I've also created various websites and released a video game on the playstore with nearly 500 downloads.
+                  During my free time I've also created various websites and released a mobile game on the playstore with nearly 500 downloads.
                 </p>
                 <p>I feel at home in young, fresh, and fast-paced organizations.</p>
               </div>

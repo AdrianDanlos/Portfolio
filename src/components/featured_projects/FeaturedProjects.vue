@@ -117,7 +117,7 @@
             <template v-slot:web-links>
               <a target="_blank" :href="linksProject2.github">
                 <v-btn
-                  class="mr-2 mr-sm-0 ml-n2 ml-sm-4"
+                  class="mr-2 mr-sm-0 ml-n2 ml-sm-2"
                   icon
                   @mouseover="cursorHover"
                   @mouseleave="cursorLeave"
@@ -229,7 +229,7 @@
             <template v-slot:web-links>
               <a target="_blank" :href="linksProject4.github">
                 <v-btn
-                  class="mr-2 mr-sm-0 ml-n2 ml-sm-4"
+                  class="mr-2 mr-sm-0 ml-n2 ml-sm-2"
                   icon
                   @mouseover="cursorHover"
                   @mouseleave="cursorLeave"
