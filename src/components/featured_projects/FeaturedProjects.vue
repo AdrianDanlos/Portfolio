@@ -50,8 +50,9 @@
             </template>
             <template v-slot:languages-used>
               <span
+                class="language-used"
                 :class="{
-                  'mr-4': n !== techsProject1.length,
+                  'mr-2': n !== techsProject1.length,
                 }"
                 v-for="n in techsProject1.length"
                 :key="n"
@@ -61,7 +62,7 @@
             <template v-slot:web-links>
               <a target="_blank" :href="linksProject1.host">
                 <v-btn
-                  class="ml-n2 mr-4"
+                  class="ml-n2 mr-2"
                   icon
                   @mouseover="cursorHover"
                   @mouseleave="cursorLeave"
@@ -107,7 +108,7 @@
             </template>
             <template v-slot:languages-used>
               <span
-                :class="{ 'ml-4': n !== techsProject2.length }"
+                class="language-used ml-2"
                 v-for="n in techsProject2.length"
                 :key="n"
                 >{{ techsProject2[n - 1] }}</span
@@ -116,7 +117,7 @@
             <template v-slot:web-links>
               <a target="_blank" :href="linksProject2.github">
                 <v-btn
-                  class="mr-4 mr-sm-0 ml-n2 ml-sm-4"
+                  class="mr-2 mr-sm-0 ml-n2 ml-sm-4"
                   icon
                   @mouseover="cursorHover"
                   @mouseleave="cursorLeave"
@@ -159,7 +160,8 @@
             </template>
             <template v-slot:languages-used>
               <span
-                :class="{ 'mr-4': n !== techsProject3.length }"
+                class="language-used"
+                :class="{ 'mr-2': n !== techsProject3.length }"
                 v-for="n in techsProject3.length"
                 :key="n"
                 >{{ techsProject3[n - 1] }}</span
@@ -168,7 +170,7 @@
             <template v-slot:web-links>
               <a target="_blank" :href="linksProject3.github">
                 <v-btn
-                  class="ml-n2 mr-4"
+                  class="ml-n2 mr-2"
                   icon
                   @mouseover="cursorHover"
                   @mouseleave="cursorLeave"
@@ -178,7 +180,7 @@
               </a>
               <a target="_blank" :href="linksProject3.host">
                 <v-btn
-                  class="mr-4"
+                  class="mr-2"
                   icon
                   @mouseover="cursorHover"
                   @mouseleave="cursorLeave"
@@ -220,14 +222,14 @@
               <project-desc-4></project-desc-4>
             </template>
             <template v-slot:languages-used>
-              <span class="ml-4" v-for="n in techsProject4.length" :key="n">{{
+              <span class="language-used ml-2" v-for="n in techsProject4.length" :key="n">{{
                 techsProject4[n - 1]
               }}</span>
             </template>
             <template v-slot:web-links>
               <a target="_blank" :href="linksProject4.github">
                 <v-btn
-                  class="mr-4 mr-sm-0 ml-n2 ml-sm-4"
+                  class="mr-2 mr-sm-0 ml-n2 ml-sm-4"
                   icon
                   @mouseover="cursorHover"
                   @mouseleave="cursorLeave"
@@ -274,7 +276,7 @@
                 :class="{
                   'min-width': n === techsProject5[0],
                 }"
-                class="mr-3"
+                class="language-used mr-3"
                 v-for="n in techsProject5.length"
                 :key="n"
                 >{{ techsProject5[n - 1] }}</span
@@ -283,7 +285,7 @@
             <template v-slot:web-links>
               <a target="_blank" :href="linksProject5.github">
                 <v-btn
-                  class="ml-n2 mr-4"
+                  class="ml-n2 mr-2"
                   icon
                   @mouseover="cursorHover"
                   @mouseleave="cursorLeave"
@@ -293,7 +295,7 @@
               </a>
               <a target="_blank" :href="linksProject5.host">
                 <v-btn
-                  class="mr-4"
+                  class="mr-2"
                   icon
                   @mouseover="cursorHover"
                   @mouseleave="cursorLeave"
@@ -334,7 +336,8 @@
             </template>
             <template v-slot:languages-used>
               <span
-                :class="{ 'mr-4': n !== techsProject6.length }"
+                class="language-used"
+                :class="{ 'mr-2': n !== techsProject6.length }"
                 v-for="n in techsProject6.length"
                 :key="n"
                 >{{ techsProject6[n - 1] }}</span
@@ -410,6 +413,17 @@ export default {
     top: 50%;
     left: 50%;
   }
+}
+
+.language-used{
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  line-height: 1px;
+  background: lighten($purple, 48%);
+  border-radius: 100px;
+  font-family: $serif-font;
+  font-size: 14px;
 }
 
 @media (max-width: 1264px) {

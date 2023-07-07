@@ -31,7 +31,7 @@ export default {
     return {
       technologiesIcons: [
         "mdi-react",
-        "mdi-language-javascript",
+        "mdi-language-typescript",
         "mdi-sass",
         "mdi-forest",
         "mdi-language-python",
@@ -146,17 +146,14 @@ export default {
         z-index: 5;
       }
       &:hover {
-        i {
-          color: $gray-500;
-        }
         &::before {
-          background: $js-bBorder-color;
+          background: $ts-bBorder-color;
         }
         &::after {
-          background: $js-lBorder-color;
+          background: $ts-lBorder-color;
         }
         span {
-          background: $js-color;
+          background: $ts-color;
         }
       }
     }

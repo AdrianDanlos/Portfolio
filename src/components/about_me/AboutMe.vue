@@ -22,11 +22,8 @@
             <transition name="fade">
               <div v-if="currentSection === 'CORE SKILLS'" :class="{positionAbsolute: loaded}">
                 <p>
-                  Despite being specialized on Frontend technologies I have a broad experience building performant
-                  <span
-                    class="special-text"
-                  >end-to-end applications</span>. In 2020 I joined the experienced engineering team at Benocs where I have been developing a
-                  high performant data visualization application for the biggest internet provider companies.
+                  My main focus these days is building products for our clients, including some of the largest internet service providers, at Benocs.
+                  During my free time I've also created various websites and released a video game on the playstore with nearly 500 downloads.
                 </p>
                 <p>I feel at home in young, fresh, and fast-paced organizations.</p>
               </div>
@@ -36,29 +33,21 @@
             <transition name="fade">
               <div v-if="currentSection === 'TEAMWORK'" :style="{position:'absolute'}">
                 <p>
-                  I'm well aware about the importance of
-                  <span
-                    class="special-text"
-                  >interpersonal skills</span> when building projects. Thus, I have read some of the most popular books on the topic such as
-                  <span
-                    class="special-text"
-                  >'How To Win Friends and Influence People'</span>, 'The Power of Introvers', 'How To Stop Worrying and Start Living' and many more to develop my social skills and contribute to an
-                  <span
-                    class="special-text"
-                  >enjoyable and productive team environment</span>.
+                  I've gained extensive teamwork experience through different companies, freelancing, and entrepreneurship. Collaborating with diverse teams and individuals has taught me to adapt to different dynamics and work effectively with others. 
+                  I've also taken on mentoring roles, guiding others in their journeys and further enhancing my ability to contribute to team success.
                 </p>
               </div>
             </transition>
 
-            <!-- PROBLEM SOLVING -->
+            <!-- MYSELF -->
             <transition name="fade">
-              <div v-if="currentSection === 'PROBLEM SOLVING'">
+              <div v-if="currentSection === 'MYSELF'">
                 <p>
-                  <span class="special-text">Logical and Rational Thinking</span> stand out as my main tools to face any kind of challenge and push innovation. Since I was a kid I have enjoyed playing games based on Logic and Decision Making, hitting
-                  <span
-                    class="special-text"
-                  >semi-professional level</span> in games such as Hearthstone and League of Legends. This interest for games has pushed me to create not only websites and applications but also some games on my free time.
+                  When my mind is not thinking about coding(); my soul is obsessed with space, AI, and learning new languages. 
+                  I love exploring the unknown and geeking out over the latest technology advancements.
+                  I don't know how many times I have fantasized about humans becoming an interplanetary species. 
                 </p>
+                <p>Hopefully one day!</p>
               </div>
             </transition>
             <h3
@@ -109,9 +98,9 @@ export default {
   data() {
     return {
       loaded: false,
-      technologies: ["React", "JavaScript", "SASS", "Cypress", "Django", "Docker"],
+      technologies: ["React", "TypeScript", "SASS", "Cypress", "Django", "Docker"],
       currentTech: 0,
-      sections: ["CORE SKILLS", "TEAMWORK", "PROBLEM SOLVING"],
+      sections: ["CORE SKILLS", "TEAMWORK", "MYSELF"],
       currentSection: "CORE SKILLS",
       technologiesLargeText: "Always Learning",
       technologiesSmallText: "CORE",

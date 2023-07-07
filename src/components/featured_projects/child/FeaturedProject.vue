@@ -99,10 +99,6 @@ export default {
     }
     .languages-used {
       color: $gray-blue;
-      span {
-        font-family: $serif-font;
-        font-size: 14px;
-      }
     }
   }
 }

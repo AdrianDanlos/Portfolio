@@ -36,7 +36,7 @@ $tile-bBorder-color: setBorderColors($tile-color, bottom);
 
 /*Tile technologies*/
 $react-color: #61dbfb;
-$js-color: #ffca1d;
+$ts-color: #2F74C0;
 $sass-color: #c66395;
 $cypress-color: #47474A;
 $django-color: #2AA473;
@@ -45,8 +45,8 @@ $docker-color: #2497ED;
 /*Tile borders*/
 $react-lBorder-color: setBorderColors($react-color, left);
 $react-bBorder-color: setBorderColors($react-color, bottom);
-$js-lBorder-color: setBorderColors($js-color, left);
-$js-bBorder-color: setBorderColors($js-color, bottom);
+$ts-lBorder-color: setBorderColors($ts-color, left);
+$ts-bBorder-color: setBorderColors($ts-color, bottom);
 $sass-lBorder-color: setBorderColors($sass-color, left);
 $sass-bBorder-color: setBorderColors($sass-color, bottom);
 $cypress-lBorder-color: setBorderColors($cypress-color, left);
