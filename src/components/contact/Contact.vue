@@ -101,14 +101,12 @@
               <p>{{setBookMessage()}}</p>
             </div>
             <div>
-              <a href="mailto:danlosadrian@gmail.com" target="_blank">
-                <p>
-                  <v-icon>mdi-email</v-icon>
-                  <span @mouseover="cursorHover" @mouseleave="cursorLeave">{{ email }}</span>
-                </p>
-              </a>
               <p>
-                <v-icon>mdi-phone</v-icon>
+                <v-icon>mdi-email</v-icon>
+                <span>{{ email }}</span>
+              </p>
+              <p>
+                <v-icon>mdi-whatsapp</v-icon>
                 {{ phone }}
               </p>
               <a href="https://www.linkedin.com/in/adrian-danlos/" target="_blank">
