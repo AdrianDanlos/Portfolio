@@ -1,7 +1,8 @@
 <template>
   <span>
-    A
-    <span class="special-text">real-time statistic tracker</span> for Apex Legends
-    <span class="special-text">videogame</span>. Search for your username to display data about your rank, kills, wins, top3's.. Ideal for all players that would like to keep track of their in-game stats.
+    Freelance web application that serves as a billing tool for customer management 
+    which seamlessly handles tasks such as data storage, retrieval,
+    filtering, editing, deleting, exporting... The main focus of the project is to optimize the
+    company’s billing processes and improve the overall management of customer data.
   </span>
 </template>

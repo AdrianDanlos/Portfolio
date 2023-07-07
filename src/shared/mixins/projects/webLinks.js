@@ -14,8 +14,7 @@ export default {
                 github: 'https://github.com/AdrianDanlos/BattleHeaven-Fighting-RPG'
             },
             linksProject4: {
-                // host: 'https://apex-legends-tracker-7662d.web.app/',
-                github: 'https://github.com/AdrianDanlos/ApexLegends.OPGG'
+
             },
             linksProject5: {
                 host: 'https://github.com/AdrianDanlos/CloudRoad',

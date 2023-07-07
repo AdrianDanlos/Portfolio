@@ -200,20 +200,18 @@
               <div class="shadow" :style="{ background: '#1E2337' }"></div>
               <div class="side-title-container">
                 <span>A</span>
-                <span>P</span>
                 <span>E</span>
-                <span class="mb-4">X</span>
+                <span class="mb-4">R</span>
                 <span>T</span>
-                <span>R</span>
-                <span>A</span>
+                <span>I</span>
                 <span>C</span>
                 <span>K</span>
                 <span>E</span>
-                <span>R</span>
+                <span>T</span>
               </div>
             </template>
             <slot>
-              <v-img height="100%" src="/images/projects/apex/apex.jpg"></v-img>
+              <v-img height="100%" src="/images/projects/aerticket/modal.png"></v-img>
             </slot>
             <template v-slot:project-title>
               <span>{{ projectNames[3] }}</span>
@@ -225,18 +223,6 @@
               <span class="language-used ml-2" v-for="n in techsProject4.length" :key="n">{{
                 techsProject4[n - 1]
               }}</span>
-            </template>
-            <template v-slot:web-links>
-              <a target="_blank" :href="linksProject4.github">
-                <v-btn
-                  class="mr-2 mr-sm-0 ml-n2 ml-sm-2"
-                  icon
-                  @mouseover="cursorHover"
-                  @mouseleave="cursorLeave"
-                >
-                  <v-icon>mdi-github</v-icon>
-                </v-btn>
-              </a>
             </template>
           </featured-project>
         </v-col>
