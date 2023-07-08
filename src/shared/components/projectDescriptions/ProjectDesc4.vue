@@ -1,6 +1,6 @@
 <template>
   <span>
-    Freelance web application that serves as a billing tool for customer management, seamlessly handling tasks such as data storage, retrieval, filtering, editing, deleting, and exporting. 
-    The main focus of the project is to optimize the company’s billing processes and improve the overall management of customer data.
+    Freelance web application that serves as a billing tool for managing customers, smoothly handling tasks such as storing, retrieving, filtering, editing, deleting, and exporting data. 
+    The project's main goal is to enhance the company's billing processes and improve the management of customer data.
   </span>
 </template>
